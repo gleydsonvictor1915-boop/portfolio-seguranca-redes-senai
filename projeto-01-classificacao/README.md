@@ -1,41 +1,66 @@
-# Projeto 01 — Classificação e Proteção de Informações
+# Projeto 01 — Classificação da Informação
 
-## Sobre o projeto
+## 📌 Sobre o projeto
 
-Este projeto faz parte do meu portfólio de aprendizagem do curso Analista de Segurança em Redes de Computadores, realizado pelo SENAI.
+Este projeto faz parte do meu portfólio de aprendizagem prática desenvolvido durante o curso **Analista de Segurança em Redes de Computadores — SENAI**.
 
-A atividade consiste em uma simulação prática de classificação de informações em uma empresa fictícia chamada LogiTech Estoques.
+A atividade aborda os fundamentos da classificação da informação, um processo essencial para a Segurança da Informação, que permite identificar o nível de sensibilidade dos dados e estabelecer os cuidados necessários para sua proteção.
 
-## Objetivos
+## 🎯 Objetivo
 
-- Compreender os fundamentos da segurança da informação.
-- Identificar os níveis de classificação das informações.
-- Entender os princípios fundamentais da segurança da informação.
-- Relacionar os conceitos estudados a situações empresariais.
+Compreender a importância da classificação das informações dentro de uma organização, identificando diferentes níveis de acesso, sensibilidade e riscos associados à divulgação ou ao acesso não autorizado.
 
-## Conteúdos estudados
+## 🔐 Classificação da Informação
 
-- Classificação pública, interna, confidencial e secreta.
-- Confidencialidade.
-- Integridade.
-- Disponibilidade.
-- Autenticação.
-- Não repúdio.
+Durante o estudo, foram abordados quatro níveis de classificação:
 
-## Ambiente e ferramentas
+**1. Pública**
+Informações que podem ser divulgadas livremente, sem causar prejuízos significativos à organização.
+Exemplos: telefone comercial, endereço e e-mail institucional.
 
-- Sistema operacional: Windows 10.
-- Documentação: WordPad.
-- Atividade: laboratório acadêmico com dados fictícios.
+**2. Interna**
+Informações destinadas ao ambiente interno da organização, cujo acesso externo deve ser evitado.
+Exemplos: horários de funcionários, informações operacionais e valores internos.
 
-## Resultados
+**3. Confidencial**
+Informações restritas, cuja divulgação ou acesso não autorizado pode causar prejuízos operacionais ou financeiros.
+Exemplos: dados de clientes, fornecedores, cadastros e balanços financeiros.
 
-Foi realizada a classificação de seis tipos de informações empresariais, acompanhada de justificativas e exercícios de fixação sobre os princípios de segurança da informação.
+**4. Secreta**
+Informações altamente sensíveis e críticas para a organização, com acesso limitado a um grupo muito restrito de pessoas.
+Exemplos: projetos estratégicos, fórmulas de produtos e diferenciais competitivos.
 
-## Segurança e responsabilidade
+## 🛡️ Importância para a Segurança da Informação
 
-A atividade utiliza exclusivamente dados fictícios e foi desenvolvida para fins educacionais.
+A classificação adequada permite estabelecer critérios de acesso e proteção, reduzindo riscos de exposição, vazamento e uso indevido de informações.
 
-## Natureza do projeto
+Também contribui para a aplicação de políticas de segurança e para a preservação da confidencialidade dos dados.
 
-Projeto acadêmico e pessoal de aprendizagem. Não representa experiência profissional na área de cibersegurança.
+## 📚 Conhecimentos desenvolvidos
+
+- Fundamentos de Segurança da Informação.
+- Classificação e sensibilidade dos dados.
+- Identificação de informações críticas.
+- Controle de acesso às informações.
+- Prevenção contra exposição e divulgação não autorizada.
+- Importância da proteção de dados no ambiente organizacional.
+
+## 📂 Evidências
+
+Os registros e materiais relacionados ao desenvolvimento desta atividade estão organizados nesta pasta.
+
+## 🎓 Formação
+
+Curso: Analista de Segurança em Redes de Computadores.
+
+Instituição: SENAI.
+
+## 👨‍💻 Autor
+
+Gleydson Cunha
+
+Estudante de Segurança em Redes de Computadores e profissional em desenvolvimento na área de Tecnologia da Informação.
+
+---
+
+*Este projeto representa uma etapa da minha evolução prática e acadêmica em Segurança da Informação e Segurança de Redes.*
