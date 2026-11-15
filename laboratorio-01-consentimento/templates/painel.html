@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Painel local | Laboratório 01</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="container">
+    <p class="eyebrow">DASHBOARD • DADOS LOCAIS</p>
+    <h1>Painel de eventos</h1>
+    <p class="lead">Somente contagens e datas de eventos consentidos. Não existem identificadores de pessoas neste painel.</p>
+    <div class="metricas">
+      <div class="metrica"><p class="numero">{{TOTAL}}</p><span class="rotulo">Eventos totais</span></div>
+      <div class="metrica"><p class="numero">{{CONSENTIMENTOS}}</p><span class="rotulo">Consentimentos</span></div>
+      <div class="metrica"><p class="numero">{{CLIQUES}}</p><span class="rotulo">Cliques de teste</span></div>
+    </div>
+    <section class="card">
+      <h2>Últimos 20 eventos</h2>
+      <table><thead><tr><th>Tipo</th><th>Data (UTC)</th></tr></thead><tbody>{{LINHAS}}</tbody></table>
+    </section>
+    <p><a href="/">Voltar à página de testes</a></p>
+  </main>
+</body>
+</html>
