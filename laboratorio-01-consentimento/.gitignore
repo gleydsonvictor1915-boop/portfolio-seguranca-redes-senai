@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.venv/
+eventos_local.db
+*.db-journal
+.DS_Store
