@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laboratório 01 | Consentimento e Eventos Web</title>
+<link rel="stylesheet" href="/static/style.css"><script defer src="/static/app.js"></script>
+</head>
+<body><main class="container">
+<p class="eyebrow">PORTFÓLIO • SEGURANÇA DE REDES</p>
+<h1>Laboratório de eventos web</h1>
+<p class="lead">Demonstração educacional, local e transparente de registro de eventos.</p>
+<section class="card" id="consentimento">
+<h2>Consentimento</h2>
+<p><strong>Dados armazenados:</strong> somente tipo de evento (consentimento e clique no botão de teste) e horário UTC. Não salvamos IP, nome, e-mail, localização, digitação ou atividades fora desta página.</p>
+<p>O consentimento é voluntário e revogável. Eventos anteriores permanecem no banco local até exclusão manual.</p>
+<button id="aceitar" type="button">Concordo e quero testar</button>
+</section>
+<section class="card oculto" id="teste">
+<h2>Teste autorizado</h2>
+<p>Somente o clique no botão abaixo será registrado.</p>
+<button id="registrar" type="button">Registrar clique de teste</button>
+<button class="secundario" id="revogar" type="button">Interromper coleta</button>
+</section>
+<p class="status" id="status" aria-live="polite"></p>
+<p><a href="/painel">Ver painel de eventos locais</a></p>
+</main></body></html>
